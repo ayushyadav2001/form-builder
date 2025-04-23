@@ -1,47 +1,4 @@
 Form Builder
-Project Structure
-
-form-builder/
-├── client/                     # Frontend (React, Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Auth/
-│   │   │   │   ├── Login.jsx
-│   │   │   │   └── Register.jsx
-│   │   │   ├── Form/
-│   │   │   │   ├── FormBuilder.jsx
-│   │   │   │   ├── FormList.jsx
-│   │   │   │   ├── FormView.jsx
-│   │   │   │   └── ResponseViewer.jsx
-│   │   │   └── Layout/
-│   │   │       └── Navbar.jsx
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx
-│   │   ├── pages/
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Home.jsx
-│   │   │   └── PublicForm.jsx
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── tailwind.config.js
-│   └── postcss.config.js
-├── server/                     # Backend (Node.js, Express)
-│   ├── config/
-│   │   └── db.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── forms.js
-│   │   └── responses.js
-│   ├── socket.js
-│   ├── server.js
-│   ├── package.json
-│   └── .env.example
-├── .env.example
-└── README.md
 
 client/: Frontend built with React, Vite, and Tailwind CSS.
 server/: Backend built with Node.js, Express, and MongoDB.
